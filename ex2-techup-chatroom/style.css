@@ -1,1 +1,96 @@
-/* Start coding here */
+* {
+    box-sizing: border-box;
+  }
+  
+body {
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+  }
+
+header {
+    color: white;
+    background-color: grey;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100vw;
+    height: 60px;
+    font-size: 30px;
+    padding-left: 15px;
+  }
+
+.right-text-container {
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    align-items: flex-end;
+    position: relative;
+}
+
+.right-text-message-box {
+    background-color: rgb(0, 255, 64);
+    margin: 5px 0px;
+    padding: 15px;
+    border-radius: 50px;
+    width: 200px;
+}
+
+.chat-tail-1{
+    position: absolute;
+    right: 25px;
+    top: 7px;
+    background-color: rgb(0, 255, 64);
+    width: 80px;
+    height: 80px;
+    border-radius: 100px;
+    z-index: -2;
+}
+
+.chat-tail-2{
+    position: absolute;
+    right: 25px;
+    top: -10px;
+    background-color: white;
+    width: 80px;
+    height: 80px;
+    border-radius: 100px;
+    z-index: -1;
+}
+
+.right-text-message-box.add-color {
+    background-color: rgb(207, 207, 207);
+}
+
+.left-text-container {
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    align-items: flex-start;
+}
+
+.left-text-massage-box {
+    background-color: rgb(151, 151, 151);
+    margin: 5px 0px;
+    padding: 15px;
+    border-radius: 50px;
+    width: 200px;
+}
+
+.delete-button {
+    padding: 0px;
+    background-color: rgb(152, 152, 152);
+    text-align: center;
+    border-radius: 20px;
+    width: 25px;
+    height: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    position: absolute;
+    top: 90px;
+    right: 25px;
+
+}
