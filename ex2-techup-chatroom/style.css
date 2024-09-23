@@ -3,6 +3,7 @@
   box-sizing: border-box;
   padding: 0;
   margin: 0;
+  font-family: 'Sarabun';
 }
 
 header {
@@ -24,14 +25,13 @@ main {
   position: relative;
 }
 
-.chat {
-  position: absolute;
-  right: 10px;
-}
-.chat2 {
-  position: absolute;
-  top: 200px;
-  left: 10px;
+.chat{
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  width: 100vw;
+  height: auto;
+  padding-right: 10px;
 }
 
 .chat-green {
@@ -39,6 +39,7 @@ main {
   justify-content: center;
   align-items: center;
   background-color: #2abe2b;
+  width: 200px;
   height: 50px;
   border-radius: 30px;
   padding: 10px;
@@ -51,6 +52,7 @@ main {
   justify-content: center;
   align-items: center;
   background-color: #e7e3e3;
+  width: 200px;
   height: 50px;
   border-radius: 30px;
   padding: 10px;
@@ -65,7 +67,6 @@ main {
   width: 30px;
   height: 30px;
   top: 0;
-  right: 0;
   z-index: 0;
 }
 .close {
@@ -78,6 +79,5 @@ main {
   height: 15px;
   border-radius: 30px;
   top: 55px;
-  right: 0;
   z-index: 2;
 }
