@@ -1,1 +1,83 @@
 /* Start coding here */
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: 'Sarabun';
+}
+
+header {
+  display: flex;
+  align-items: center;
+  background-color: #808080;
+  width: 100vw;
+  height: 60px;
+  margin-bottom: 20px;
+}
+
+.logo {
+  color: white;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.chat{
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  width: 100vw;
+  height: auto;
+  padding-right: 10px;
+}
+
+.chat-green {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #2abe2b;
+  width: 200px;
+  height: 50px;
+  border-radius: 30px;
+  padding: 10px;
+  margin-bottom: 10px;
+  position: relative;
+  z-index: 1;
+}
+.chat-gray {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #e7e3e3;
+  width: 200px;
+  height: 50px;
+  border-radius: 30px;
+  padding: 10px;
+  margin-bottom: 10px;
+  position: relative;
+  z-index: 1;
+}
+
+.tail {
+  position: absolute;
+  background-color: #2abe2b;
+  width: 30px;
+  height: 30px;
+  top: 0;
+  z-index: 0;
+}
+.close {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  background-color: #bebebe;
+  width: 15px;
+  height: 15px;
+  border-radius: 30px;
+  top: 55px;
+  z-index: 2;
+}
